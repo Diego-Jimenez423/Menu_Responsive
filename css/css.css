@@ -17,22 +17,54 @@ background: linear-gradient(90deg, rgba(12,148,167,1) 0%, rgba(32,107,111,1) 100
     float: left;
 }
 .nav{
+    width: 500px;
     float: left;
     margin-left: 50px;
     list-style: none;
     margin-top: 12px;
 }
-.nav a{
+.bt{
     float: left;
     margin-right: 30px;
     padding: 10px;
-    text-decoration:none;
+    text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
     font-family: sans-serif;
 }
-.nav a:hover{
-    background-color: darkgrey;
+.bt:hover{
+    background-color: rgba(247,75,52,1);
     color: white;
+}
+.mas{
+    display: flex;
+    flex-direction: column;
+}
+.bt4{
+}
+.botones4{
+    list-style: none;
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.mas:hover{
+    background-color: rgba(247,75,52,1);
+}
+.botones4 a{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.botones4 a li{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.botones4 a li:hover{
+    background-color: rebeccapurple;
 }
