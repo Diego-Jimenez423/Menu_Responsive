@@ -1,8 +1,13 @@
 var botonlis4 = document.getElementById("lisBoton4");
-var boton4 = document.getElementById('boton4');
+var boton4 = document.getElementById("boton4");
 
 function desplegarBoton4(){
-    botonlis4.classList.add('mostrar');
-};
+    botonlis4.classList.add("mostrar");
+}
 
-boton4.addEventListener("click",desplegarBoton4,true);
+function ocultarBoton4(){
+botonlis4.classList.remove("mostrar");    
+}
+
+boton4.addEventListener("mouseover",desplegarBoton4,true);
+boton4.addEventListener("mouseout",ocultarBoton4,true);
